@@ -1,3 +1,13 @@
+# differentprogramming:
+Forked to be part of a C to Advanced Common Runtime, a name I just came up with for what will be something like the JVM or CLR but with every feature and the kitchen sink thrown in. For example features missing from JVM and CLR are image based persistence, tail call optimization, go routines, multiple dispatch, delimited continuations, non-determinism, logical variables, reified search, logical programming, pattern-based or where-clause tested dispatch, multiple return values, LLVM codes as a generic inline assembler, support for live schema alterations (ie cleanup routines for changing a running program), and a low latency garbage collector like Go. Wish me luck!
+
+Although the project is open source I don't want to be infected with LGPL, so this library will be dynamically linked.
+
+Planned changes to the original:
+1) output to an internal stream to the linking program instead of to the disk.
+2) being given virtual input directories by the linking program instead of reading from the disk.
+3) if possible, create or include a side channel of original token position data - or at very least the preprossessed line being expanded.
+
 # Simple C/C++ preprocessor
 
 This is a simple C/C++ preprocessor.
